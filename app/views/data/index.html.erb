@@ -1,0 +1,15 @@
+<h1>Your Instadata</h1>
+
+<%= "Hello #{@user.username}" %>
+<%= @user.bio %>
+<%= @user.counts.followed_by %>
+<%= @user.counts.follows %>
+
+<br />
+<% names = [] %>
+<% @recent.each do |r| %>
+  <% names << r.caption.from.full_name %>
+<% end %>
+  <%= names.uniq.join(" ") %>
+
+<%#= "Session token: #{session[:access_token]}" %>
