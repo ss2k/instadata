@@ -1,2 +1,1 @@
-instadata
-=========
+InstaData - Your instagram stats.
