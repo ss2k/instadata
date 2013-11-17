@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+
+background: url(bg.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+}
+
+
+
+#wrapper {
+
+	width: 100%;
+	height: auto;
+
+}
+
+#main {
+
+	display: block;
+	max-width: 960px;
+	margin-top: 240px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h1 {
+
+	color: #fff;
+	font-size: 54px;
+	font-family: sans-serif;
+	margin-bottom: 30px;
+	font-weight: bold;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.30);
+
+
+}
+
+.black-box p {
+
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.40);
+
+}
+
+.black-box {
+
+	color: #fff;
+	text-align: center;
+	width: 700px;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+.button h2 {
+
+
+	font-weight: lighter;
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.40);
+
+}
+
+
+.button {
+
+	width: 500px;
+	height: auto;
+	padding: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	display: block;
+	border-radius: 8px;
+	background: rgba(230,39,93,1);
+background: -moz-linear-gradient(top, rgba(230,39,93,1) 0%, rgba(209,27,79,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,39,93,1)), color-stop(100%, rgba(209,27,79,1)));
+background: -webkit-linear-gradient(top, rgba(230,39,93,1) 0%, rgba(209,27,79,1) 100%);
+background: -o-linear-gradient(top, rgba(230,39,93,1) 0%, rgba(209,27,79,1) 100%);
+background: -ms-linear-gradient(top, rgba(230,39,93,1) 0%, rgba(209,27,79,1) 100%);
+background: linear-gradient(to bottom, rgba(230,39,93,1) 0%, rgba(209,27,79,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6275d', endColorstr='#d11b4f', GradientType=0 );
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
