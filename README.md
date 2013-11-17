@@ -1,1 +1,1 @@
-InstaData - Your instagram stats.
+InstaData - Your instagram stats. Lots of details.
