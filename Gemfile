@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.15'
 gem 'instagram'
 gem 'pry'
+gem 'googlecharts'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
